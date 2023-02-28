@@ -32,3 +32,6 @@ def convert_frames_to_video(pathIn, pathOut, fps):
         out.write(frame_array[i])
 
     out.release()
+    
+    
+#write a code for converting video to image

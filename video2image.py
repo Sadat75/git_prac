@@ -16,3 +16,6 @@ while success:
     cv2.imwrite("frame%d.jpg" % count, image) 
 
     count += 1
+    
+    
+#ChatGPT is the best
