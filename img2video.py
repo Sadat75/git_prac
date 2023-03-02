@@ -34,4 +34,14 @@ def convert_frames_to_video(pathIn, pathOut, fps):
     out.release()
     
     
-#write a code for converting video to image
+#write a code for cocnating two images
+
+# Read the images to be merged 
+img1 = cv2.imread('image1.jpg') 
+img2 = cv2.imread('image2.jpg') 
+  
+# Merge the images into a single image 
+merged_image = cv2.hconcat([img1, img2]) 
+  
+# Display the merged image to the screen 
+cv2.imshow('Merged Image', merged_image)
